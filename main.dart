@@ -129,13 +129,15 @@ Future<void> playerBackgroundService() async {
   runMobileBackgroundService();
 }
 
-class MyApp extends StatelessWidget {
+class My extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const OverlaySupport(
       child: QuietApp(),
+      class My extends StatelessWidget {
+  const MyApp({super.key});
     );
   }
 }
