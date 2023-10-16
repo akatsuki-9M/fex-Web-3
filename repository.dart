@@ -10,5 +10,6 @@ export 'repository/data/user.dart';
 export 'repository/local_cache_data.dart';
 export 'repository/netease.dart';
 export 'repository/network_repository.dart';
+export 'repository/data.dart';
 
 void importRepository() {}
